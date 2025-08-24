@@ -7,3 +7,9 @@ __pycache__/
 models/
 data/
 logs/
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
