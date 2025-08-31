@@ -1,20 +1,38 @@
 # File: stock_prediction.py
-# Authors: Bao Vo and Cheong Koo
-# Date: 14/07/2021(v1); 19/07/2021 (v2); 02/07/2024 (v3)
+#
+# Original Authors: Bao Vo and Cheong Koo
+#
+#  Original Dates: 14/07/2021 (v1); 19/07/2021 (v2); 02/07/2024 (v3)
+#
+#-----------------------------------------------------------------------
+#  Code adapted from:
+#   Title: Predicting Stock Prices with Python (NeuralNine)
+#
+#
+#    YouTube: https://www.youtube.com/watch?v=PuZY9q-aKLw
+#   Reference repo (tutorials by x4nth055 / The Python Code): see LICENSE in repo
+#
+#
+# ------------------------------------------------------------------------
+#  Modifications: 
+#   Modified by: Suyogya “Rex” Raj Joshi
+# 
+#   Date: 28/08/2025
+# 
+#   Summary of changes: Switched to yfinance download, adjusted train/test dates,
+# 
+#   clarified scaling/reshaping comments, tweaked LSTM stack & dropout, added
+# 
+#   plotting, etc. (list your real changes briefly)
+#
+#------------------------------------------------------------------------------------------------
+# License:
+# 
+#   Retain original license/notice from any borrowed sources. If you publish this
+# 
+#   project, include the upstream LICENSE files and attribution in your README.
 
-# Code modified from:
-# Title: Predicting Stock Prices with Python
-# Youtuble link: https://www.youtube.com/watch?v=PuZY9q-aKLw
-# By: NeuralNine
 
-# Need to install the following (best in a virtual env):
-# pip install numpy
-# pip install matplotlib
-# pip install pandas
-# pip install tensorflow
-# pip install scikit-learn
-# pip install pandas-datareader
-# pip install yfinance
 
 import numpy as np
 import matplotlib.pyplot as plt
